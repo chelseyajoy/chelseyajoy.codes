@@ -26,6 +26,9 @@ module.exports = {
           800: '#EF0640',
           900: '#DB063B'
         }
+      },
+      backgroundImage: {
+        'bground-pattern': "url('assets/bg-pattern.svg')"
       }
     },
   },
