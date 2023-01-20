@@ -28,7 +28,8 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'bground-pattern': "url('assets/bg-pattern.svg')"
+        'bground-pattern': "url('assets/bg-pattern.svg')",
+        'bground-pattern-dark': "url('assets/bg-pattern-dark.svg')"
       }
     },
   },

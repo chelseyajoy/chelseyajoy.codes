@@ -5,7 +5,7 @@ app-main {
   flex-direction: column;
   height: 100%;
   width: 100%;
-
+  
   .typewriter {
     position: relative; 
     width: $typewriter-width;
@@ -21,6 +21,7 @@ app-main {
     animation: typing 3.5s steps(30, end),
     blinking-cursor .5s steps(20) infinite normal;
   }
+  
   @keyframes typing{
     from{width: 0;}
     to{width: $typewriter-width;}
