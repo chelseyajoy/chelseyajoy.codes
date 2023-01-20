@@ -13,9 +13,17 @@ export class MainComponent implements OnInit {
   constructor() { }
 
   farEnvelope = farEnvelope;
-  fabLinkedinIn = fabLinkedinIn
+  fabLinkedinIn = fabLinkedinIn;
 
   ngOnInit(): void {
+  }
+
+  openMailTo(): void {
+    window.open('mailto:chelseajoy.rdg@gmail.com');
+  }
+
+  openLinkedIn(): void {
+    window.open('https://www.linkedin.com/in/chelsea-joy-de-guzman/')
   }
 
 }

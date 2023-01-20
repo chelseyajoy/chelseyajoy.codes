@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { MainRoutingModule } from './main-routing.module';
 import { MainComponent } from './main.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MatRippleModule } from '@angular/material/core';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     CommonModule,
     MainRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatRippleModule
   ]
 })
 export class MainModule { }

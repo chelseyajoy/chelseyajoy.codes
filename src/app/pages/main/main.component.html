@@ -1,11 +1,13 @@
-<div class="w-full h-full flex items-center justify-center bg-primary-800">
-  <div class="w-80 flex flex-col gap-2 items-center justify-center text-zinc-100">
-    <span class="">Hello, Kumusta?</span>
+<div class="w-full h-full flex items-center justify-center bg-bground-pattern bg-primary-800 bg-blend-multiply">
+  <div class="z-10 w-[21rem] flex flex-col gap-2 items-center justify-center text-zinc-100">
+    <div class="text-[17px] pb-2">
+      <p class="typewriter animate-typing">Hello, Kumusta?</p>
+    </div>
     <div class="w-full flex flex-col gap-1 pb-3 border-b border-zinc-700">
-      <div class="flex text-6xl">
+      <div class="flex text-[64px] leading-none">
         <span>I'm</span>
         <span class="text-accent-500 font-semibold ml-2">Chelsea</span>
-        <span>.</span>
+        <span class="">.</span>
       </div>
       <div class="w-full flex text-justify text-xl text-zinc-400">
         I develop awesome stuff for the web
@@ -15,10 +17,10 @@
       I am a <span class="text-accent-400 inline">front-end developer</span> who aims to create innovative solutions geared towards enhancing user experience.
     </div>
     <div class="flex justify-center gap-3 my-4 text-zinc-400"> 
-      <div class="w-8 h-8 flex justify-center items-center rounded-full border border-zinc-400 hover:bg-accent-500 hover:text-zinc-100">
+      <div class="w-8 h-8 flex justify-center items-center rounded-full border border-zinc-400 hover:bg-accent-500 hover:text-zinc-100" (click)="openMailTo()" matRipple>
         <fa-icon [icon]="farEnvelope"></fa-icon>
-      </div>
-      <div class="w-8 h-8 flex justify-center items-center rounded-full border border-zinc-400 hover:bg-accent-500 hover:text-zinc-100">
+      </div> 
+      <div class="w-8 h-8 flex justify-center items-center rounded-full border border-zinc-400 hover:bg-accent-500 hover:text-zinc-100" (click)="openLinkedIn()" matRipple>
         <fa-icon [icon]="fabLinkedinIn"></fa-icon>
       </div>
     </div>
